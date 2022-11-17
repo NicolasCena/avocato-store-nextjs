@@ -1,13 +1,13 @@
 import React from 'react'
 import { Navbar } from '../components/Navbar/Navbar'
 
-const HomePage = () => {
+const AboutPage = () => {
   return (
-    <div>
+    <section>
       <Navbar />
-      <div>Platzi and Next.js!</div>
-    </div>
+      <h1>Sobre los aguacates</h1>
+    </section>
   )
 }
 
-export default HomePage
+export default AboutPage
